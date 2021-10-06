@@ -1,0 +1,18 @@
+{
+    "games": [
+        {
+            "id": 1,
+            "homeTeam": "Arizona Cardinals",
+            "awayTeam": "San Francisco 49ers",
+            "homeSpread": "-6",
+            "result": ""
+        },
+        {
+            "id": 2,
+            "homeTeam": "Seattle Seahawks",
+            "awayTeam": "Los Angeles Rams",
+            "homeSpread": "-1.5",
+            "result": ""
+        }
+    ]
+}
