@@ -2,7 +2,7 @@
 const bcrypt = require("bcrypt");
 
 // globals
-const password = "secret";
+const password = process.env.BCRYPT_PASSWORD
 const saltRounds = 15;
 
 bcrypt

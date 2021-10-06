@@ -1,9 +1,9 @@
 const express = require('express')
-const app = express()
-const port = 3000
 const cookieParser = require('cookie-parser')
-
+const { port } = require('./config');
 const routes = require('./routes')
+
+const app = express()
 
 app.use(express.json());
 app.use(cookieParser());
