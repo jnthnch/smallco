@@ -14,7 +14,7 @@
 
 const express = require('express');
 const path = require('path');
-const db = require('../db');
+const db = require('../databaseConnection');
 const router = express.Router();
 
 const jwt = require('jsonwebtoken')
