@@ -42,4 +42,12 @@ document.getElementById('logout-button').onclick = async function () {
         })
 }
 
+axios.get('http://localhost:5000/games')
+    .then(function (response) {
+        console.log('games response:', response.data)
+    })
+    .catch(function (error) {
+        console.log('[error]: ', error)
+    })
+
 getUsername();
