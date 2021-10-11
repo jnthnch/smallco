@@ -1,10 +1,23 @@
 {
+    "users": [
+        {
+            "id": 1,
+            "username": "jon",
+            "password": "secret"
+        },
+        {
+            "id": 2,
+            "username": "grant",
+            "password": "gmiz"
+        }
+    ],
     "games": [
         {
             "id": 1,
             "homeTeam": "Arizona Cardinals",
             "awayTeam": "San Francisco 49ers",
             "homeSpread": "-6",
+            "roadSpread": "+6",
             "result": ""
         },
         {
@@ -12,6 +25,15 @@
             "homeTeam": "Seattle Seahawks",
             "awayTeam": "Los Angeles Rams",
             "homeSpread": "-1.5",
+            "roadSpread": "+1.5",
+            "result": ""
+        },
+        {
+            "id": 3,
+            "homeTeam": "Cleveland Bronws",
+            "awayTeam": "Los Angeles Chargers",
+            "homeSpread": "-1",
+            "roadSpread": "+1",
             "result": ""
         }
     ]
