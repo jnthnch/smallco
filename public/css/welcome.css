@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.outer_container {
+    height: 100%;
+    width: 100%;
+    padding: 3rem;
+    background-color: lightblue;
+    box-sizing: border-box;
+}
+
+.outer_container .header_container {
+    background-color: pink;
+    margin: 3rem 0px;
+}
+
+.outer_container .game_picks_container {
+    background-color: steelblue;
+}
+
