@@ -7,15 +7,40 @@
     <title>Welcome Page</title>
     <link rel="stylesheet" href="./css/welcome.css">
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-
 </head>
 <body>
-    <h1>Welcome Page</h1>
-    <div>
-        <p id='welcome-username'>Welcome: </p>
+    <div class='outer_container'>
+        <div class='header_container'>
+            <h1>Welcome Page</h1>
+            <div>
+                <p id='welcome_username'>Welcome: </p>
+            </div>
+            <button id='logout_button'>Logout</button>
+        </div>
+        <div class="game_picks_container">
+            <div id="homeTeam">
+                <h3>Home Team</h3>
+                <p>Cardinals -6</p>
+            </div>
+            <div id="awayTeam">
+                <h3>Away Team</h3>
+                <p>49ers +6</p>
+            </div>
+            <div id="game-1">
+                <form>
+                    Game Selection
+                    <select name="game-1-selection" id="game-1-selection">
+                        <option value="">--Please choose an option--</option>
+                        <option value="Home">Home</option>
+                        <option value="Away">Away</option>
+                    </select>
+                </form>
+    
+                <button onclick="handleSubmit()">submit</button>
+            </div>
+        </div>
     </div>
-    <button id='logout-button'>Logout</button>
-    <script src="./js/welcome.js"></script>
 
+    <script src="./js/welcome.js"></script>
 </body>
 </html>
