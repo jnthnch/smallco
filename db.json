@@ -14,26 +14,34 @@
     "games": [
         {
             "id": 1,
-            "homeTeam": "Arizona Cardinals",
-            "awayTeam": "San Francisco 49ers",
-            "homeSpread": "-6",
-            "roadSpread": "+6",
+            "homeTeam": "Chicago Bears",
+            "awayTeam": "Green Bay Packers",
+            "homeSpread": "+4.5",
+            "awaySpread": "-4.5",
             "result": ""
         },
         {
             "id": 2,
-            "homeTeam": "Seattle Seahawks",
-            "awayTeam": "Los Angeles Rams",
-            "homeSpread": "-1.5",
-            "roadSpread": "+1.5",
+            "homeTeam": "Pittsburgh Steelers",
+            "awayTeam": "Seattle Seahawks",
+            "homeSpread": "-4.5",
+            "awaySpread": "+4.5",
             "result": ""
         },
         {
             "id": 3,
-            "homeTeam": "Cleveland Bronws",
-            "awayTeam": "Los Angeles Chargers",
-            "homeSpread": "-1",
-            "roadSpread": "+1",
+            "homeTeam": "Tennessee Titans",
+            "awayTeam": "Buffalo Bills",
+            "homeSpread": "+5",
+            "awaySpread": "-5",
+            "result": ""
+        },
+        {
+            "id": 4,
+            "homeTeam": "Detroit Lions",
+            "awayTeam": "Cincinnati Bengals",
+            "homeSpread": "+3",
+            "awaySpread": "-3",
             "result": ""
         }
     ]
