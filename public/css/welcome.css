@@ -14,6 +14,7 @@ html, body {
     padding: 3rem;
     background-color: lightblue;
     box-sizing: border-box;
+    overflow-y: scroll;
 }
 
 .outer_container .header_container {
@@ -22,6 +23,6 @@ html, body {
 }
 
 .outer_container .game_picks_container {
-    background-color: steelblue;
+    background-color: orange;
 }
 
