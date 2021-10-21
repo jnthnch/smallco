@@ -28,9 +28,6 @@ function addGame(game) {
 
     const { homeTeam, awayTeam, homeSpread, awaySpread } = game;
 
-    console.log('[game]', game)
-    // console.log('gamePicksContainer', gamePicksContainer)
-
     gamePick.setAttribute('team-home-name', homeTeam)
     gamePick.setAttribute('team-away-name', awayTeam)
     gamePick.setAttribute('team-home-spread', homeSpread)

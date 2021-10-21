@@ -66,12 +66,7 @@ class GamePick extends HTMLElement {
             console.log('options', options)
             this.dispatchEvent(new CustomEvent('jonEvent', { detail: 'lakers' }));
         })
-
-        
     }
-
-
-
 }
 
-customElements.define('game-pick', GamePick)
+customElements.define('game-pick', GamePick);
